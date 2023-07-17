@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    min-height: 150vh;
+    width: 100%;
+    /* background-color: #131517; */
+    background: linear-gradient(240deg,#414141,#0d0b0b,#081d2b,#141b33);
+  background-size: 240% 240%;
+  animation: gradient-animation 28s ease infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    top: 0;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a{
+    padding: 8px;
+    padding-inline: 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #2384DE;
+    color: white;
+}
+.nav a:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+.card1{
+    width: 800px;
+    background-color: #212325;
+    /* background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px); */
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+    animation-name: card-anim;
+    animation-duration: 2s;
+    position: relative;
+}
+.card1 .bg{
+    width: 100%;
+    border-radius: 10px;
+}
+.section{
+    /* background-color: aqua; */
+    width: 90%;
+    margin-block: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.d1{
+    padding: 10px;
+    background-color: #131517;
+    font-weight: 300;
+    border: 0 0 0 20px #fff solid;
+    border-radius: 5px;
+    margin-inline: 5px;
+}
+
+.line{
+    height: 1px;
+    width: 90%;
+    background-color: grey;
+}
+
+.date{
+    height: 70px;
+    position: relative;
+    top: 25px;
+}
+.oneapi-icon{
+    height: 25px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.icon{
+    height: 15px;
+    margin-right: 6px;
+}
+
+.medal{
+    height: 60px;
+    margin: 10px;
+}
+
+.card2{
+    width: 385px;
+    background-color: #212325;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    animation-name: card-anim;
+    animation-duration: 2s;
+    position: relative;
+}
+
+.card2 a{
+    width: 350px;
+    height: 30px;
+    background-color: #2384DE;
+    color: white;
+    margin-block: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.card2 a:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+@keyframes card-anim {
+    from { top: 100px; opacity: 0; }
+    to { top: 0px; opacity: 1; }
+}
