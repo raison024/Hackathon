@@ -9,10 +9,10 @@
 body{
     min-height: 150vh;
     width: 100%;
-    /* background-color: #131517; */
-    background: linear-gradient(240deg,#414141,#0d0b0b,#081d2b,#141b33);
+    background-color: #131517;
+    /* background: linear-gradient(240deg,#414141,#0d0b0b,#081d2b,#141b33);
   background-size: 240% 240%;
-  animation: gradient-animation 28s ease infinite;
+  animation: gradient-animation 28s ease infinite; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,6 +91,9 @@ p{
     animation-name: card-anim;
     animation-duration: 2s;
     position: relative;
+}
+.card1 a{
+    color: white;
 }
 .card1 .bg{
     width: 100%;
