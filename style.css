@@ -222,7 +222,7 @@ p{
         row-gap: 30px;
     }
     .schedule-container{
-        width: 90%;
+        width: 100%;
         background-image: url('./assets/schedule6.png');
     }
     #days, #hours, #minutes, #seconds  {
