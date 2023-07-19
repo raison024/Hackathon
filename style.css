@@ -222,7 +222,7 @@ p{
         row-gap: 30px;
     }
     .schedule-container{
-        width: 90%;
+        width: 100%;
         height: 400px;
         background-image: url('./assets/schedule6.png');
     }
