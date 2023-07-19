@@ -210,6 +210,9 @@ p{
 }
 
 @media only screen and (max-width: 850px) {
+    .nav h3{
+        font-size: 15px;
+    }
     h2{
         font-size: 20px;
         font-weight: 600;
