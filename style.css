@@ -134,7 +134,7 @@ p{
     width: 90%; 
     height: 100px;
     background-image: url('./assets/schedule5.png');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -222,7 +222,7 @@ p{
         row-gap: 30px;
     }
     .schedule-container{
-        width: 100%;
+        height:350px;
         background-image: url('./assets/schedule6.png');
     }
     #days, #hours, #minutes, #seconds  {
