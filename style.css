@@ -159,6 +159,10 @@ p{
     position: relative;
     top: 25px;
 }
+.date2{
+    height: 65px;
+    display: none;
+}
 .oneapi-icon{
     height: 25px;
     border-radius: 100%;
@@ -245,7 +249,9 @@ p{
         font-weight: 400;
     }
     .date{
-        height: 60px;
-        top: 0;
-        margin-left: 2px;
-  }
+        display: none;
+    }
+    .date2{
+        display: initial;
+    }
+}
