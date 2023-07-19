@@ -219,6 +219,7 @@ p{
     .contact-grid{
         grid-template-columns: auto auto;
         justify-content: space-around;
+        row-gap: 30px;
     }
     .schedule-container{
         width: 90%;
