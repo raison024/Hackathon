@@ -240,7 +240,7 @@ p{
         background-image: url('./assets/schedule6.png');
     }
     #days, #hours, #minutes, #seconds  {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 400;
     }
   }
