@@ -244,4 +244,8 @@ p{
         font-size: 12px;
         font-weight: 400;
     }
+    .date{
+        height: 50px;
+        top: 0;
+        margin-left: 2px;
   }
