@@ -134,7 +134,7 @@ p{
     width: 90%; 
     height: 100px;
     background-image: url('./assets/schedule5.png');
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
