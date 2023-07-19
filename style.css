@@ -205,6 +205,12 @@ p{
 }
 
 @media only screen and (max-width: 850px) {
+    .nav a{
+        padding: 0;
+        padding-inline: 0;
+        background-color: transparent;
+        color: #2384DE;
+    }
     .card1{
         width: 90%;
     }
