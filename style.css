@@ -104,6 +104,11 @@ p{
     color: #fff;
 }
 
+.nav img{
+    height: 30px;
+    margin: 10px;
+}
+
 .avatar{
     height: 100px;
     border-radius: 100px;
@@ -165,6 +170,7 @@ p{
     height: 1px;
     width: 90%;
     background-color: grey;
+    
 }
 
 .date{
