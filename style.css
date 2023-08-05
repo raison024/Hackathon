@@ -223,6 +223,19 @@ p{
     color: #fff;
 }
 
+.res-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.res-video{
+    height: 200px;
+    width: 300px;
+    margin-right: 10px;
+}
+
 @keyframes card-anim {
     from { top: 100px; opacity: 0; }
     to { top: 0px; opacity: 1; }
@@ -275,5 +288,11 @@ p{
     }
     .date2{
         display: initial;
+    }
+    .res-row{
+        flex-direction: column;
+    }
+    .res-video{
+        margin: 10px;
     }
 }
