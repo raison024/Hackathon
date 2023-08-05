@@ -240,7 +240,7 @@ p{
         font-size: 15px;
         font-weight: 600; 
     }
-    .nav a{
+    .nav #navbutton{
         padding: 0;
         padding-inline: 0;
         background-color: transparent;
