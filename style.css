@@ -7,7 +7,7 @@
 }
 
 body{
-    min-height: 150vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #131517;
     /* background: linear-gradient(240deg,#414141,#0d0b0b,#081d2b,#141b33);
@@ -91,7 +91,7 @@ p{
     align-items: center;
     justify-content: space-between;
 }
-.nav a{
+.nav #navbutton{
     padding: 8px;
     padding-inline: 20px;
     font-size: 14px;

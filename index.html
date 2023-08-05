@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,15 @@
     <script src="./script.js"></script>
     <title>Christ Hackathon</title>
 </head>
+
 <body>
     <div class="nav">
         <div class="row">
             <img src="./assets/Logo.png" alt="">
             <h3>Christ Hackathon</h3>
         </div>
-        
-        <a href="https://forms.gle/sCKEPoyqtvrQGMCf6" target="_blank">Register Here</a>
+
+        <a id="navbutton" href="https://forms.gle/sCKEPoyqtvrQGMCf6" target="_blank">Register Here</a>
     </div>
     <div class="card1 column" style="justify-content: flex-start;">
         <video src="./assets/Video.mp4" class="bg" autoplay loop muted></video>
@@ -28,7 +30,7 @@
                 </div>
                 <img src="./assets/Date.png" class="date2">
             </div>
-            
+
             <img src="./assets/Date.png" class="date">
         </div>
         <div class="section" style="justify-content: flex-start; align-items: center;">
@@ -37,26 +39,53 @@
             <p id="minutes" class="d1"></p>:
             <p id="seconds" class="d1"></p>
         </div>
-        
+
+        <div class="section" style="flex-direction: column; margin-top: 20px;">
+            <div class="row">
+                <img src="./assets/about-icon.png" alt="" class="icon">
+                <h4>Upcoming News and Events</h4>
+            </div>
+
+            <div class="line" style="margin-block: 10px;"></div>
+
+            <ul>
+                <li>
+                    <p style="margin-right: 7px;">6th August 2023 - Online Session 4:00 PM</p>
+                    <a href="https://meet.google.com/dvm-cemk-mbs?hs=224" 
+                    style="font-size: 15px; color: #2384DE;" target="_blank">
+                        Join here
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
     </div>
 
     <div class="card-row">
 
         <div class="card2 column" style="justify-content: flex-start;">
-                <div class="section">
-                    <h4>
-                        <img src="./assets/about-icon.png" alt="" class="icon">
-                        About the Event
-                    </h4>
-                </div>
-                <div class="line"></div>
-                <div class="section" style="flex-direction: column; align-items: center;">
-                    <p>This hybrid hackathon event centered around Intel oneAPI, aimed at engaging and empowering students in the field of machine learning and software development. This hackathon will provide students with a platform to showcase their creativity, problem-solving skills, and knowledge of Intel oneAPI while fostering collaboration and innovation.
+            <div class="section">
+                <h4>
+                    <img src="./assets/about-icon.png" alt="" class="icon">
+                    About the Event
+                </h4>
+            </div>
+            <div class="line"></div>
+            <div class="section" style="flex-direction: column; align-items: center;">
+                <p>This hybrid hackathon event centered around Intel oneAPI, aimed at engaging and empowering students
+                    in the field of machine learning and software development. This hackathon will provide students with
+                    a platform to showcase their creativity, problem-solving skills, and knowledge of Intel oneAPI while
+                    fostering collaboration and innovation.
 
-                    </p>
-                    <a href="https://chat.whatsapp.com/KyZzeWXWAQ0EoehEhUzS0J" class="column">Join us on Whatsapp</a>
-                </div>
-                
+                </p>
+                <a href="https://chat.whatsapp.com/KyZzeWXWAQ0EoehEhUzS0J" class="column">Join us on Whatsapp</a>
+                <a href="Res.html" class="column"
+                style="background-color: transparent; height: 7px; color: #2384DE;">
+                    View all resources
+                </a>
+            </div>
+
         </div>
 
         <div class="card2 column" style="justify-content: flex-start;">
@@ -68,23 +97,24 @@
             </div>
             <div class="line"></div>
             <div class="section column" style="justify-content: center;">
-                    <div class="row">
-                        <div class="column">
-                            <img src="./assets/gold.png" alt="" class="medal">
-                            <h4>400$</h4>
-                        </div>
-                        <div class="column">
-                            <img src="./assets/silver.png" alt="" class="medal">
-                            <h4>250$</h4>
-                        </div>
-                        <div class="column">
-                            <img src="./assets/bronze.png" alt="" class="medal">
-                            <h4>150$</h4>
-                        </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="./assets/gold.png" alt="" class="medal">
+                        <h4>400$</h4>
                     </div>
+                    <div class="column">
+                        <img src="./assets/silver.png" alt="" class="medal">
+                        <h4>250$</h4>
+                    </div>
+                    <div class="column">
+                        <img src="./assets/bronze.png" alt="" class="medal">
+                        <h4>150$</h4>
+                    </div>
+                </div>
             </div>
             <div class="section column" style="justify-content: center;">
-                <h4>Special Mention:&nbsp;&nbsp;</h4><p>2 x 50$</p>
+                <h4>Special Mention:&nbsp;&nbsp;</h4>
+                <p>2 x 50$</p>
             </div>
 
             <div class="section">
@@ -96,11 +126,10 @@
             <div class="line"></div>
             <div class="section" style="flex-direction: column; align-items: center;">
                 <p>Hello! To join the event, please register below.</p>
-                <p id="demo2">Ends in:</p>
+                <p>Ends in: 1 day/s</p>
                 <a href="https://forms.gle/sCKEPoyqtvrQGMCf6" class="column" target="_blank">Apply for the hackathon</a>
             </div>
-    </div>
-        
+        </div>
     </div>
 
     <div class="card1 column" style="justify-content: flex-start;">
@@ -125,7 +154,7 @@
         <div class="line"></div>
         <h3 style="margin-top: 20px;">Student Ambassadors</h3>
         <div class="contact-grid" style="width: 100%; margin-top: 20px;">
-            
+
             <div class="column">
                 <img src="./assets/joel.jpg" class="avatar" alt="">
                 <h4>Joel John Joseph</h4>
@@ -149,14 +178,15 @@
                 <h4>Arun GK</h4>
                 <a href="tel:+9060408940" target="_blank">9060408940</a>
             </div>
-    
+
         </div>
 
         <div class="line" style="margin-top: 20px;"></div>
 
         <h3 style="margin-top: 10px;">Faculty</h3>
-        <div class="row" style="flex-wrap: wrap; width: 90%; margin-top: 10px; justify-content: space-evenly; align-items: center;">
-            
+        <div class="row"
+            style="flex-wrap: wrap; width: 90%; margin-top: 10px; justify-content: space-evenly; align-items: center;">
+
             <div class="column" style="margin: 10px;">
                 <img src="./assets/judge2.jpeg" class="avatar" alt="">
                 <h4>Dr. Chandra J</h4>
@@ -185,19 +215,20 @@
                         <img src="./assets/gmail.png" alt="" class="social-icon">
                     </a>
                 </div>
-                
+
             </div>
         </div>
 
         <div class="line" style="margin-top: 20px;"></div>
 
         <h3 style="margin-top: 10px;">Judges</h3>
-        <div class="row" style="flex-wrap: wrap; width: 90%; margin-top: 10px; justify-content: space-evenly; align-items: flex-start;">
-            
+        <div class="row"
+            style="flex-wrap: wrap; width: 90%; margin-top: 10px; justify-content: space-evenly; align-items: flex-start;">
+
             <div class="column" style="margin: 10px;">
                 <img src="./assets/judge1.jpeg" class="avatar" alt="">
                 <h4>Dr. Shriram Kris Vasudevan</h4>
-                <a style="text-align: center;">Lead - Technology Evangelist (AP & J),<br/>Intel India Pvt.Ltd.</a>
+                <a style="text-align: center;">Lead - Technology Evangelist (AP & J),<br />Intel India Pvt.Ltd.</a>
                 <!-- <a href="mailto:shriramvasudevan@gmail.com" target="_blank">shriramvasudevan@gmail.com</a> -->
                 <div class="row">
                     <a href="https://www.linkedin.com/in/shriramkvasudevan/" target="_blank">
@@ -219,20 +250,20 @@
                         <img src="./assets/gmail.png" alt="" class="social-icon">
                     </a>
                 </div>
-                
+
             </div>
         </div>
     </div>
 
     <div class="line" style="margin-top: 20px; width: 88%;">
-        <div class="row" 
-            style="justify-content: space-between; align-items: center; height: 50px;
+        <div class="row" style="justify-content: space-between; align-items: center; height: 50px;
                 font-size: 14px; font-weight: 700; color: #bababa;">
             <div>
-            Designed by Raison Sabu
+                Designed by Raison Sabu
             </div>
         </div>
     </div>
-    
+
 </body>
+
 </html>
